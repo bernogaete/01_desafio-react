@@ -19,7 +19,7 @@ const Navbar = () => {
 
 <div className="d-flex gap-2 d-md-flex justify-content-md-end">
         <a  href="#" className="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true" style={{ fontSize: 'small' }}>
-          <img src='carrito-de-compras.png' className='pizzaimg' alt="Cart" />Total: ${total.toLocaleString()}
+        🛒 Total: ${total.toLocaleString()}
         </a>
 
 
